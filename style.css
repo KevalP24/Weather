@@ -5,7 +5,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #222;
+    background-color: #222; 
+    background-image: url('bgimg.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
 }
 .card{
     width: 90%;
